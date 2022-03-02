@@ -43,5 +43,21 @@ print(round(1 / 3, 4))
 # À chaque fois stockez le résultat dans une variable et affichez le résultat.
 
 # réponse 2.2
-print(round(1.62))
+
+my_var = 2
+my_var = float(my_var)
+print(round(my_var, 1))
+
+my_var = 1.62
+my_var = int(my_var)
+print( my_var)
+
+my_var = 1.62
+print(round(my_var))
+my_var = int(my_var)
+print(my_var)
+print(type(my_var))
+
+my_var = 1.62
+print(round(my_var, 1))
 
